@@ -10,7 +10,7 @@ repositories {
 }
 
 group = "io.github.hiroyuki-sato"
-version = "0.4.0"
+version = "0.4.1"
 description = "Parses JSON files with JSONPath read by other file input plugins."
 
 sourceCompatibility = 1.8
@@ -40,10 +40,10 @@ dependencies {
 
     // They are once excluded from transitive dependencies of other dependencies,
     // and added explicitly with versions exactly the same with embulk-core:0.10.19.
-    compile "com.fasterxml.jackson.core:jackson-annotations:2.6.7"
-    compile "com.fasterxml.jackson.core:jackson-core:2.6.7"
-    compile "com.fasterxml.jackson.core:jackson-databind:2.6.7"
-    compile "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.6.7"
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
+    compile "com.fasterxml.jackson.core:jackson-core:2.13.4"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.13.4"
+    compile "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4"
     compile "javax.validation:validation-api:1.1.0.Final"
     //compile "joda-time:joda-time:2.9.2"
 
